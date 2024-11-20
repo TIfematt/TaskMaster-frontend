@@ -34,6 +34,8 @@ export default function TaskList() {
   }, [filters.status, filters.priority, filters.deadline]);
 
   useEffect(() => {
+    console.log(tasks)
+    if (!tasks || tasks.length === 0) return;
     let filtered = [...tasks];
     
     if (filters.search) {

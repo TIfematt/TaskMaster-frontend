@@ -1,6 +1,6 @@
 import { Task } from '@/types/task';
 
-const BASE_URL = 'http://localhost:3001/api';
+const BASE_URL = 'https://taskmaster-backend-gf6d.onrender.com/api';
 
 const defaultHeaders = {
   'Content-Type': 'application/json',
